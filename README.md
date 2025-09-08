@@ -15,9 +15,8 @@
 
 ### アーキテクチャフロー
 ```
-[HTML App] → [Docker Build] → [AWS ECR Push] → [Kubernetes Deploy] → [Service Access]
-     ↓              ↓              ↓              ↓              ↓
-  [開発環境]     [コンテナ化]   [クラウド保存]   [オーケストレ]  [外部公開]
+[HTML App](開発環境) → [Docker Build](コンテナ化) → [AWS ECR Push](クラウド保存) → [Kubernetes Deploy](オーケストレ) → [Service Access](外部公開)
+
 ```
 
 ## 💻 使用技術・サービス
@@ -180,6 +179,11 @@ minikube service my-app --url
 - **マイクロサービス実装**: 複数コンテナでのサービス間通信
 - **監視・ログ管理**: Prometheus・Grafanaでの運用監視
 
+### AI活用による効率的学習
+- **概念理解重視**: コード暗記ではなく、技術の「なぜ」をAIとの対話で深掘り
+- **リアルタイム問題解決**: エラー発生時のトラブルシューティングをAI支援で迅速化
+- **学習効率最適化**: 限られた時間での技術習得をAI活用で加速
+
 ---
 
 ## 📧 Contact
@@ -192,6 +196,7 @@ Cloud Infrastructure Engineer
 ---
 
 *このプロジェクトは、短期間でのKubernetes習得を目的とした実践学習の成果です。コンテナオーケストレーション技術の基礎から、AWSクラウド連携まで、実務に近い環境での学習を重視しています。*
+
 
 ## 📄 License
 
