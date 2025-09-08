@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ecr-app
+  name: ecr-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ecr-app
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ecr-app
+    spec:
+      containers:
+      - image: 571600829497.dkr.ecr.ap-northeast-1.amazonaws.com/my-portfolio-k8s:latest
+        imagePullPolicy: Never
+        name: my-portfolio-k8s
+        resources: {}
+status: {}
