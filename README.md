@@ -13,6 +13,9 @@
 
 ## 🏗️ システム構成
 
+### コンテナオーケストレーションアーキテクチャ
+![Docker to Kubernetes Learning Workflow](AWS_ECR_docker.drawio.svg)  
+
 ### アーキテクチャフロー
 ```
 [HTML App] → [Docker Build] → [AWS ECR Push] → [Kubernetes Deploy] → [Service Access]
