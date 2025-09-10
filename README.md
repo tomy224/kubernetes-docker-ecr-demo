@@ -14,7 +14,7 @@
 ## 🏗️ システム構成
 
 ### コンテナオーケストレーションアーキテクチャ
-![Docker to Kubernetes Learning Workflow](AWS_ECR_docker.drawio.svg)  
+![Docker to Kubernetes Learning Workflow](assets/AWS_ECR_docker.svg)  
 
 ### アーキテクチャフロー
 ```
